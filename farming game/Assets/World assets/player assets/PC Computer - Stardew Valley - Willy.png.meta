@@ -1,0 +1,1148 @@
+fileFormatVersion: 2
+guid: 66def28816829c340b0ed45eccad6209
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC Computer - Stardew Valley - Willy_0
+    21300002: PC Computer - Stardew Valley - Willy_1
+    21300004: PC Computer - Stardew Valley - Willy_2
+    21300006: PC Computer - Stardew Valley - Willy_3
+    21300008: PC Computer - Stardew Valley - Willy_4
+    21300010: PC Computer - Stardew Valley - Willy_5
+    21300012: PC Computer - Stardew Valley - Willy_6
+    21300014: PC Computer - Stardew Valley - Willy_7
+    21300016: PC Computer - Stardew Valley - Willy_8
+    21300018: PC Computer - Stardew Valley - Willy_9
+    21300020: PC Computer - Stardew Valley - Willy_10
+    21300022: PC Computer - Stardew Valley - Willy_11
+    21300024: PC Computer - Stardew Valley - Willy_12
+    21300026: PC Computer - Stardew Valley - Willy_13
+    21300028: PC Computer - Stardew Valley - Willy_14
+    21300030: PC Computer - Stardew Valley - Willy_15
+    21300032: PC Computer - Stardew Valley - Willy_16
+    21300034: PC Computer - Stardew Valley - Willy_17
+    21300036: PC Computer - Stardew Valley - Willy_18
+    21300038: PC Computer - Stardew Valley - Willy_19
+    21300040: PC Computer - Stardew Valley - Willy_20
+    21300042: PC Computer - Stardew Valley - Willy_21
+    21300044: PC Computer - Stardew Valley - Willy_22
+    21300046: PC Computer - Stardew Valley - Willy_23
+    21300048: PC Computer - Stardew Valley - Willy_24
+    21300050: PC Computer - Stardew Valley - Willy_25
+    21300052: PC Computer - Stardew Valley - Willy_26
+    21300054: PC Computer - Stardew Valley - Willy_27
+    21300056: PC Computer - Stardew Valley - Willy_28
+    21300058: PC Computer - Stardew Valley - Willy_29
+    21300060: PC Computer - Stardew Valley - Willy_30
+    21300062: PC Computer - Stardew Valley - Willy_31
+    21300064: PC Computer - Stardew Valley - Willy_32
+    21300066: PC Computer - Stardew Valley - Willy_33
+    21300068: PC Computer - Stardew Valley - Willy_34
+    21300070: PC Computer - Stardew Valley - Willy_35
+    21300072: PC Computer - Stardew Valley - Willy_36
+    21300074: PC Computer - Stardew Valley - Willy_37
+    21300076: PC Computer - Stardew Valley - Willy_38
+    21300078: PC Computer - Stardew Valley - Willy_39
+    21300080: PC Computer - Stardew Valley - Willy_40
+    21300082: PC Computer - Stardew Valley - Willy_41
+    21300084: PC Computer - Stardew Valley - Willy_42
+    21300086: PC Computer - Stardew Valley - Willy_43
+    21300088: PC Computer - Stardew Valley - Willy_44
+    21300090: PC Computer - Stardew Valley - Willy_45
+    21300092: PC Computer - Stardew Valley - Willy_46
+    21300094: PC Computer - Stardew Valley - Willy_47
+    21300096: PC Computer - Stardew Valley - Willy_48
+    21300098: PC Computer - Stardew Valley - Willy_49
+    21300100: PC Computer - Stardew Valley - Willy_50
+    21300102: PC Computer - Stardew Valley - Willy_51
+    21300104: PC Computer - Stardew Valley - Willy_52
+    21300106: PC Computer - Stardew Valley - Willy_53
+    21300108: PC Computer - Stardew Valley - Willy_54
+    21300110: PC Computer - Stardew Valley - Willy_55
+    21300112: PC Computer - Stardew Valley - Willy_56
+    21300114: PC Computer - Stardew Valley - Willy_57
+    21300116: PC Computer - Stardew Valley - Willy_58
+    21300118: PC Computer - Stardew Valley - Willy_59
+    21300120: PC Computer - Stardew Valley - Willy_60
+    21300122: PC Computer - Stardew Valley - Willy_61
+    21300124: PC Computer - Stardew Valley - Willy_62
+    21300126: PC Computer - Stardew Valley - Willy_63
+    21300128: PC Computer - Stardew Valley - Willy_64
+    21300130: PC Computer - Stardew Valley - Willy_65
+    21300132: PC Computer - Stardew Valley - Willy_66
+    21300134: PC Computer - Stardew Valley - Willy_67
+    21300136: PC Computer - Stardew Valley - Willy_68
+    21300138: PC Computer - Stardew Valley - Willy_69
+    21300140: PC Computer - Stardew Valley - Willy_70
+    21300142: PC Computer - Stardew Valley - Willy_71
+    21300144: PC Computer - Stardew Valley - Willy_72
+    21300146: PC Computer - Stardew Valley - Willy_73
+    21300148: PC Computer - Stardew Valley - Willy_74
+    21300150: PC Computer - Stardew Valley - Willy_75
+    21300152: PC Computer - Stardew Valley - Willy_76
+    21300154: PC Computer - Stardew Valley - Willy_77
+    21300156: PC Computer - Stardew Valley - Willy_78
+    21300158: PC Computer - Stardew Valley - Willy_79
+    21300160: PC Computer - Stardew Valley - Willy_80
+    21300162: PC Computer - Stardew Valley - Willy_81
+    21300164: PC Computer - Stardew Valley - Willy_82
+    21300166: PC Computer - Stardew Valley - Willy_83
+    21300168: PC Computer - Stardew Valley - Willy_84
+    21300170: PC Computer - Stardew Valley - Willy_85
+    21300172: PC Computer - Stardew Valley - Willy_86
+    21300174: PC Computer - Stardew Valley - Willy_87
+    21300176: PC Computer - Stardew Valley - Willy_88
+    21300178: PC Computer - Stardew Valley - Willy_89
+    21300180: PC Computer - Stardew Valley - Willy_90
+    21300182: PC Computer - Stardew Valley - Willy_91
+    21300184: PC Computer - Stardew Valley - Willy_92
+    21300186: PC Computer - Stardew Valley - Willy_93
+    21300188: PC Computer - Stardew Valley - Willy_94
+    21300190: PC Computer - Stardew Valley - Willy_95
+    21300192: PC Computer - Stardew Valley - Willy_96
+    21300194: PC Computer - Stardew Valley - Willy_97
+    21300196: PC Computer - Stardew Valley - Willy_98
+    21300198: PC Computer - Stardew Valley - Willy_99
+    21300200: PC Computer - Stardew Valley - Willy_100
+    21300202: PC Computer - Stardew Valley - Willy_101
+    21300204: PC Computer - Stardew Valley - Willy_102
+    21300206: PC Computer - Stardew Valley - Willy_103
+    21300208: PC Computer - Stardew Valley - Willy_104
+    21300210: PC Computer - Stardew Valley - Willy_105
+    21300212: PC Computer - Stardew Valley - Willy_106
+    21300214: PC Computer - Stardew Valley - Willy_107
+    21300216: PC Computer - Stardew Valley - Willy_108
+    21300218: PC Computer - Stardew Valley - Willy_109
+    21300220: PC Computer - Stardew Valley - Willy_110
+    21300222: PC Computer - Stardew Valley - Willy_111
+    21300224: PC Computer - Stardew Valley - Willy_112
+    21300226: PC Computer - Stardew Valley - Willy_113
+    21300228: PC Computer - Stardew Valley - Willy_114
+    21300230: PC Computer - Stardew Valley - Willy_115
+    21300232: PC Computer - Stardew Valley - Willy_116
+    21300234: PC Computer - Stardew Valley - Willy_117
+    21300236: PC Computer - Stardew Valley - Willy_118
+    21300238: PC Computer - Stardew Valley - Willy_119
+    21300240: PC Computer - Stardew Valley - Willy_120
+    21300242: PC Computer - Stardew Valley - Willy_121
+    21300244: PC Computer - Stardew Valley - Willy_122
+    21300246: PC Computer - Stardew Valley - Willy_123
+    21300248: PC Computer - Stardew Valley - Willy_124
+    21300250: PC Computer - Stardew Valley - Willy_125
+    21300252: PC Computer - Stardew Valley - Willy_126
+    21300254: PC Computer - Stardew Valley - Willy_127
+    21300256: PC Computer - Stardew Valley - Willy_128
+    21300258: PC Computer - Stardew Valley - Willy_129
+    21300260: PC Computer - Stardew Valley - Willy_130
+    21300262: PC Computer - Stardew Valley - Willy_131
+    21300264: PC Computer - Stardew Valley - Willy_132
+    21300266: PC Computer - Stardew Valley - Willy_133
+    21300268: PC Computer - Stardew Valley - Willy_134
+    21300270: PC Computer - Stardew Valley - Willy_135
+    21300272: PC Computer - Stardew Valley - Willy_136
+    21300274: PC Computer - Stardew Valley - Willy_137
+    21300276: PC Computer - Stardew Valley - Willy_138
+    21300278: PC Computer - Stardew Valley - Willy_139
+    21300280: PC Computer - Stardew Valley - Willy_140
+    21300282: PC Computer - Stardew Valley - Willy_141
+    21300284: PC Computer - Stardew Valley - Willy_142
+    21300286: PC Computer - Stardew Valley - Willy_143
+    21300288: PC Computer - Stardew Valley - Willy_144
+    21300290: PC Computer - Stardew Valley - Willy_145
+    21300292: PC Computer - Stardew Valley - Willy_146
+    21300294: PC Computer - Stardew Valley - Willy_147
+    21300296: PC Computer - Stardew Valley - Willy_148
+    21300298: PC Computer - Stardew Valley - Willy_149
+    21300300: PC Computer - Stardew Valley - Willy_150
+    21300302: PC Computer - Stardew Valley - Willy_151
+    21300304: PC Computer - Stardew Valley - Willy_152
+    21300306: PC Computer - Stardew Valley - Willy_153
+    21300308: PC Computer - Stardew Valley - Willy_154
+    21300310: PC Computer - Stardew Valley - Willy_155
+    21300312: PC Computer - Stardew Valley - Willy_156
+    21300314: PC Computer - Stardew Valley - Willy_157
+    21300316: PC Computer - Stardew Valley - Willy_158
+    21300318: PC Computer - Stardew Valley - Willy_159
+    21300320: PC Computer - Stardew Valley - Willy_160
+    21300322: PC Computer - Stardew Valley - Willy_161
+    21300324: PC Computer - Stardew Valley - Willy_162
+    21300326: PC Computer - Stardew Valley - Willy_163
+    21300328: PC Computer - Stardew Valley - Willy_164
+    21300330: PC Computer - Stardew Valley - Willy_165
+    21300332: PC Computer - Stardew Valley - Willy_166
+    21300334: PC Computer - Stardew Valley - Willy_167
+    21300336: PC Computer - Stardew Valley - Willy_168
+    21300338: PC Computer - Stardew Valley - Willy_169
+    21300340: PC Computer - Stardew Valley - Willy_170
+    21300342: PC Computer - Stardew Valley - Willy_171
+    21300344: PC Computer - Stardew Valley - Willy_172
+    21300346: PC Computer - Stardew Valley - Willy_173
+    21300348: PC Computer - Stardew Valley - Willy_174
+    21300350: PC Computer - Stardew Valley - Willy_175
+    21300352: PC Computer - Stardew Valley - Willy_176
+    21300354: PC Computer - Stardew Valley - Willy_177
+    21300356: PC Computer - Stardew Valley - Willy_178
+    21300358: PC Computer - Stardew Valley - Willy_179
+    21300360: PC Computer - Stardew Valley - Willy_180
+    21300362: PC Computer - Stardew Valley - Willy_181
+    21300364: PC Computer - Stardew Valley - Willy_182
+    21300366: PC Computer - Stardew Valley - Willy_183
+    21300368: PC Computer - Stardew Valley - Willy_184
+    21300370: PC Computer - Stardew Valley - Willy_185
+    21300372: PC Computer - Stardew Valley - Willy_186
+    21300374: PC Computer - Stardew Valley - Willy_187
+    21300376: PC Computer - Stardew Valley - Willy_188
+    21300378: PC Computer - Stardew Valley - Willy_189
+    21300380: PC Computer - Stardew Valley - Willy_190
+    21300382: PC Computer - Stardew Valley - Willy_191
+    21300384: PC Computer - Stardew Valley - Willy_192
+    21300386: PC Computer - Stardew Valley - Willy_193
+    21300388: PC Computer - Stardew Valley - Willy_194
+    21300390: PC Computer - Stardew Valley - Willy_195
+    21300392: PC Computer - Stardew Valley - Willy_196
+    21300394: PC Computer - Stardew Valley - Willy_197
+    21300396: PC Computer - Stardew Valley - Willy_198
+    21300398: PC Computer - Stardew Valley - Willy_199
+    21300400: PC Computer - Stardew Valley - Willy_200
+    21300402: PC Computer - Stardew Valley - Willy_201
+    21300404: PC Computer - Stardew Valley - Willy_202
+    21300406: PC Computer - Stardew Valley - Willy_203
+    21300408: PC Computer - Stardew Valley - Willy_204
+    21300410: PC Computer - Stardew Valley - Willy_205
+    21300412: PC Computer - Stardew Valley - Willy_206
+    21300414: PC Computer - Stardew Valley - Willy_207
+    21300416: PC Computer - Stardew Valley - Willy_208
+    21300418: PC Computer - Stardew Valley - Willy_209
+    21300420: PC Computer - Stardew Valley - Willy_210
+    21300422: PC Computer - Stardew Valley - Willy_211
+    21300424: PC Computer - Stardew Valley - Willy_212
+    21300426: PC Computer - Stardew Valley - Willy_213
+    21300428: PC Computer - Stardew Valley - Willy_214
+    21300430: PC Computer - Stardew Valley - Willy_215
+    21300432: PC Computer - Stardew Valley - Willy_216
+    21300434: PC Computer - Stardew Valley - Willy_217
+    21300436: PC Computer - Stardew Valley - Willy_218
+    21300438: PC Computer - Stardew Valley - Willy_219
+    21300440: PC Computer - Stardew Valley - Willy_220
+    21300442: PC Computer - Stardew Valley - Willy_221
+    21300444: PC Computer - Stardew Valley - Willy_222
+    21300446: PC Computer - Stardew Valley - Willy_223
+    21300448: PC Computer - Stardew Valley - Willy_224
+    21300450: PC Computer - Stardew Valley - Willy_225
+    21300452: PC Computer - Stardew Valley - Willy_226
+    21300454: PC Computer - Stardew Valley - Willy_227
+    21300456: PC Computer - Stardew Valley - Willy_228
+    21300458: PC Computer - Stardew Valley - Willy_229
+    21300460: PC Computer - Stardew Valley - Willy_230
+    21300462: PC Computer - Stardew Valley - Willy_231
+    21300464: PC Computer - Stardew Valley - Willy_232
+    21300466: PC Computer - Stardew Valley - Willy_233
+    21300468: PC Computer - Stardew Valley - Willy_234
+    21300470: PC Computer - Stardew Valley - Willy_235
+    21300472: PC Computer - Stardew Valley - Willy_236
+    21300474: PC Computer - Stardew Valley - Willy_237
+    21300476: PC Computer - Stardew Valley - Willy_238
+    21300478: PC Computer - Stardew Valley - Willy_239
+    21300480: PC Computer - Stardew Valley - Willy_240
+    21300482: PC Computer - Stardew Valley - Willy_241
+    21300484: PC Computer - Stardew Valley - Willy_242
+    21300486: PC Computer - Stardew Valley - Willy_243
+    21300488: PC Computer - Stardew Valley - Willy_244
+    21300490: PC Computer - Stardew Valley - Willy_245
+    21300492: PC Computer - Stardew Valley - Willy_246
+    21300494: PC Computer - Stardew Valley - Willy_247
+    21300496: PC Computer - Stardew Valley - Willy_248
+    21300498: PC Computer - Stardew Valley - Willy_249
+    21300500: PC Computer - Stardew Valley - Willy_250
+    21300502: PC Computer - Stardew Valley - Willy_251
+    21300504: PC Computer - Stardew Valley - Willy_252
+    21300506: PC Computer - Stardew Valley - Willy_253
+    21300508: PC Computer - Stardew Valley - Willy_254
+    21300510: PC Computer - Stardew Valley - Willy_255
+    21300512: PC Computer - Stardew Valley - Willy_256
+    21300514: PC Computer - Stardew Valley - Willy_257
+    21300516: PC Computer - Stardew Valley - Willy_258
+    21300518: PC Computer - Stardew Valley - Willy_259
+    21300520: PC Computer - Stardew Valley - Willy_260
+    21300522: PC Computer - Stardew Valley - Willy_261
+    21300524: PC Computer - Stardew Valley - Willy_262
+    21300526: PC Computer - Stardew Valley - Willy_263
+    21300528: PC Computer - Stardew Valley - Willy_264
+    21300530: PC Computer - Stardew Valley - Willy_265
+    21300532: PC Computer - Stardew Valley - Willy_266
+    21300534: PC Computer - Stardew Valley - Willy_267
+    21300536: PC Computer - Stardew Valley - Willy_268
+    21300538: PC Computer - Stardew Valley - Willy_269
+    21300540: PC Computer - Stardew Valley - Willy_270
+    21300542: PC Computer - Stardew Valley - Willy_271
+    21300544: PC Computer - Stardew Valley - Willy_272
+    21300546: PC Computer - Stardew Valley - Willy_273
+    21300548: PC Computer - Stardew Valley - Willy_274
+    21300550: PC Computer - Stardew Valley - Willy_275
+    21300552: PC Computer - Stardew Valley - Willy_276
+    21300554: PC Computer - Stardew Valley - Willy_277
+    21300556: PC Computer - Stardew Valley - Willy_278
+    21300558: PC Computer - Stardew Valley - Willy_279
+    21300560: PC Computer - Stardew Valley - Willy_280
+    21300562: PC Computer - Stardew Valley - Willy_281
+    21300564: PC Computer - Stardew Valley - Willy_282
+    21300566: PC Computer - Stardew Valley - Willy_283
+    21300568: PC Computer - Stardew Valley - Willy_284
+    21300570: PC Computer - Stardew Valley - Willy_285
+    21300572: PC Computer - Stardew Valley - Willy_286
+    21300574: PC Computer - Stardew Valley - Willy_287
+    21300576: PC Computer - Stardew Valley - Willy_288
+    21300578: PC Computer - Stardew Valley - Willy_289
+    21300580: PC Computer - Stardew Valley - Willy_290
+    21300582: PC Computer - Stardew Valley - Willy_291
+    21300584: PC Computer - Stardew Valley - Willy_292
+    21300586: PC Computer - Stardew Valley - Willy_293
+    21300588: PC Computer - Stardew Valley - Willy_294
+    21300590: PC Computer - Stardew Valley - Willy_295
+    21300592: PC Computer - Stardew Valley - Willy_296
+    21300594: PC Computer - Stardew Valley - Willy_297
+    21300596: PC Computer - Stardew Valley - Willy_298
+    21300598: PC Computer - Stardew Valley - Willy_299
+    21300600: PC Computer - Stardew Valley - Willy_300
+    21300602: PC Computer - Stardew Valley - Willy_301
+    21300604: PC Computer - Stardew Valley - Willy_302
+    21300606: PC Computer - Stardew Valley - Willy_303
+    21300608: PC Computer - Stardew Valley - Willy_304
+    21300610: PC Computer - Stardew Valley - Willy_305
+    21300612: PC Computer - Stardew Valley - Willy_306
+    21300614: PC Computer - Stardew Valley - Willy_307
+    21300616: PC Computer - Stardew Valley - Willy_308
+    21300618: PC Computer - Stardew Valley - Willy_309
+    21300620: PC Computer - Stardew Valley - Willy_310
+    21300622: PC Computer - Stardew Valley - Willy_311
+    21300624: PC Computer - Stardew Valley - Willy_312
+    21300626: PC Computer - Stardew Valley - Willy_313
+    21300628: PC Computer - Stardew Valley - Willy_314
+    21300630: PC Computer - Stardew Valley - Willy_315
+    21300632: PC Computer - Stardew Valley - Willy_316
+    21300634: PC Computer - Stardew Valley - Willy_317
+    21300636: PC Computer - Stardew Valley - Willy_318
+    21300638: PC Computer - Stardew Valley - Willy_319
+    21300640: PC Computer - Stardew Valley - Willy_320
+    21300642: PC Computer - Stardew Valley - Willy_321
+    21300644: PC Computer - Stardew Valley - Willy_322
+    21300646: PC Computer - Stardew Valley - Willy_323
+    21300648: PC Computer - Stardew Valley - Willy_324
+    21300650: PC Computer - Stardew Valley - Willy_325
+    21300652: PC Computer - Stardew Valley - Willy_326
+    21300654: PC Computer - Stardew Valley - Willy_327
+    21300656: PC Computer - Stardew Valley - Willy_328
+    21300658: PC Computer - Stardew Valley - Willy_329
+    21300660: PC Computer - Stardew Valley - Willy_330
+    21300662: PC Computer - Stardew Valley - Willy_331
+    21300664: PC Computer - Stardew Valley - Willy_332
+    21300666: PC Computer - Stardew Valley - Willy_333
+    21300668: PC Computer - Stardew Valley - Willy_334
+    21300670: PC Computer - Stardew Valley - Willy_335
+    21300672: PC Computer - Stardew Valley - Willy_336
+    21300674: PC Computer - Stardew Valley - Willy_337
+    21300676: PC Computer - Stardew Valley - Willy_338
+    21300678: PC Computer - Stardew Valley - Willy_339
+    21300680: PC Computer - Stardew Valley - Willy_340
+    21300682: PC Computer - Stardew Valley - Willy_341
+    21300684: PC Computer - Stardew Valley - Willy_342
+    21300686: PC Computer - Stardew Valley - Willy_343
+    21300688: PC Computer - Stardew Valley - Willy_344
+    21300690: PC Computer - Stardew Valley - Willy_345
+    21300692: PC Computer - Stardew Valley - Willy_346
+    21300694: PC Computer - Stardew Valley - Willy_347
+    21300696: PC Computer - Stardew Valley - Willy_348
+    21300698: PC Computer - Stardew Valley - Willy_349
+    21300700: PC Computer - Stardew Valley - Willy_350
+    21300702: PC Computer - Stardew Valley - Willy_351
+    21300704: PC Computer - Stardew Valley - Willy_352
+    21300706: PC Computer - Stardew Valley - Willy_353
+    21300708: PC Computer - Stardew Valley - Willy_354
+    21300710: PC Computer - Stardew Valley - Willy_355
+    21300712: PC Computer - Stardew Valley - Willy_356
+    21300714: PC Computer - Stardew Valley - Willy_357
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 385
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8cef80b71ef9c48ab7a79b84c55454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 285
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d34ead30d2edf44ea5ac349b87411bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 285
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dea094206bc58c48b5217ff695bfb36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 285
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc689d8df266a14f8acb28f8a28f072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 285
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6c1bc18ca80cf4ba2ea6addb768fd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 309
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb91cb595743f04bab98818704536d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 253
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84063fc19168bdb4e8f68e5263ec6c9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_7
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 253
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c589c40fff6e945458f43f241863d4ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_8
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 253
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bce1313f682a34eb229e2ca6997f3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_9
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 253
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3201c80082762418491fdfee248fdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 233
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102b3c1c0821f8c418a958bfc05a0120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_11
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 221
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5155877afb07940986cf3f3215d6a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_12
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 221
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcfa10249a66a44abad3ecb59cce166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 221
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600ee37b59b2f894fb66097428e0e628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 221
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bda75123f982386478e89a5598076393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_15
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 157
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57668fe2291b7134cb918258038a5d09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 189
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f42e1c436ca764b99636b9ad6355e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 189
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01b6bd4f291a8b4f87ac3ca2549c033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 189
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4c0fbfd6bc349408a0a44edcbcb97c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 189
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37701a805c390be43a7891327f791a8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 103
+        width: 13
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecfd863c9ea45645a73d35a8411a777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 103
+        width: 13
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c540482a02acda428fb04d6dbb61925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_22
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 103
+        width: 13
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285fae162bef49b408da0599dd74e6b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_23
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 103
+        width: 13
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f5feb26c000ad43a020df3463c946a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_24
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 81
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1c254ba33f8d749b5358a03f34099c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_25
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 64
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28a949f45fd9e740b6ab375330855c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_26
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 64
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af9a1fd5dd61d948aabc25a48449840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_27
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 64
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47251e73db956b04fb80f3c11996f4bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_28
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 5
+        width: 152
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cc54e62f5f3de4293520d396214a0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_29
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 32
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d7b7e79fa315c4fb281fa6981b30bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_30
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 32
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7330cdc30da54034b926ec095e07359f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 32
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce9a6ae31b156c4ea5939dc660d0854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_32
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 32
+        width: 15
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729f07b5057f50842a9de5cac17cd1f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Stardew Valley - Willy_33
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 5
+        width: 103
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08513059780c5e4886395e4bfa77203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0b8a83be5b8facd4292849bae76a464d
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
