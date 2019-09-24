@@ -46,5 +46,6 @@ public class Playercontroller : MonoBehaviour
     {
         animator.SetFloat("Horizontal", movementDirection.x);
         animator.SetFloat("Vertical", movementDirection.y);
+        animator.SetFloat("Speed", movementspeed);
     }
 }
