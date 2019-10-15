@@ -16,8 +16,8 @@ public class Playercontroller : MonoBehaviour
     [Header("references:")]
     public Rigidbody2D rb;
     public Animator animator;
-
-
+    Lookstate lookstate { get; set; }
+    bool Isactive = false   ;
     void Start()
     {
         
@@ -36,16 +36,50 @@ public class Playercontroller : MonoBehaviour
         movementDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         movementspeed = Mathf.Clamp(movementDirection.magnitude, 0.0f, 1.0f);
         movementDirection.Normalize();
+        if (Input.GetMouseButton(0))
+        {
+            Isactive = true;
+        }
+        if (lookstate == Lookstate.Back && Isactive == true)
+        {
+            Isactive = false;
+            animator.SetTrigger("Back");
+        }
     }
     void Move()
     {
         rb.velocity = movementDirection * movementspeed * Speed;
     } 
 
+    enum Lookstate
+    {
+        Front,
+        Back,
+        Left,
+        Right
+    }
+
     void Animate()
     {
+       
         animator.SetFloat("Horizontal", movementDirection.x);
         animator.SetFloat("Vertical", movementDirection.y);
         animator.SetFloat("Speed", movementspeed);
+        if (movementDirection.y > 0)
+        {
+            lookstate = Lookstate.Back;
+        }
+        if (movementDirection.y < 0)
+        {
+            lookstate = Lookstate.Front;
+        }
+        if (movementDirection.x < 0)
+        {
+            lookstate = Lookstate.Left;
+        }
+        if (movementDirection.x > 0)
+        {
+            lookstate = Lookstate.Right;
+        }
     }
 }
