@@ -36,6 +36,7 @@ public class Playercontroller : MonoBehaviour
         movementDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         movementspeed = Mathf.Clamp(movementDirection.magnitude, 0.0f, 1.0f);
         movementDirection.Normalize();
+        //gebruik mousebuttondown
         if (Input.GetMouseButton(0))
         {
             Isactive = true;
