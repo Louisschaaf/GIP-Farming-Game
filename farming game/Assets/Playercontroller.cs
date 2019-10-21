@@ -37,7 +37,7 @@ public class Playercontroller : MonoBehaviour
         movementspeed = Mathf.Clamp(movementDirection.magnitude, 0.0f, 1.0f);
         movementDirection.Normalize();
         //gebruik mousebuttondown
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             Isactive = true;
         }
@@ -45,6 +45,21 @@ public class Playercontroller : MonoBehaviour
         {
             Isactive = false;
             animator.SetTrigger("Back");
+        }
+        if (lookstate == Lookstate.Left && Isactive == true)
+        {
+            Isactive = false;
+            animator.SetTrigger("Left");
+        }
+        if (lookstate == Lookstate.Right && Isactive == true)
+        {
+            Isactive = false;
+            animator.SetTrigger("Right");
+        }
+        if (lookstate == Lookstate.Front && Isactive == true)
+        {
+            Isactive = false;
+            animator.SetTrigger("Front");
         }
     }
     void Move()
