@@ -53929,6 +53929,7 @@ GameObject:
   - component: {fileID: 1800844787}
   - component: {fileID: 1800844789}
   - component: {fileID: 1800844790}
+  - component: {fileID: 1800844791}
   m_Layer: 0
   m_Name: Buildings
   m_TagString: Untagged
@@ -55086,7 +55087,7 @@ TilemapCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800844785}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -55114,6 +55115,51 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!68 &1800844791
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800844785}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -7.801315, y: 3.112808}
+  - {x: -11.762306, y: 3.1047285}
+  - {x: -11.755444, y: 9.313447}
+  - {x: -8.878108, y: 9.31426}
+  - {x: -8.875405, y: 9.623729}
+  - {x: -8.724771, y: 9.624046}
+  - {x: -6.311557, y: 11.996838}
+  - {x: -6.0123587, y: 11.99986}
+  - {x: -5.253395, y: 11.183271}
+  - {x: -5.249744, y: 11.811199}
+  - {x: -4.3771944, y: 11.80665}
+  - {x: -4.373373, y: 10.248543}
+  - {x: -3.5621462, y: 9.623669}
+  - {x: -3.5624998, y: 9.00166}
+  - {x: -2.6238604, y: 9.001111}
+  - {x: -2.624251, y: 3.0635867}
+  - {x: -4.6878266, y: 3.065025}
+  - {x: -4.6897783, y: 4.05767}
+  - {x: -3.6262472, y: 4.061476}
+  - {x: -3.6204953, y: 5.000493}
+  - {x: -5.685711, y: 4.998469}
+  - {x: -5.6886525, y: 5.997043}
+  - {x: -6.695534, y: 6.009778}
+  - {x: -6.693216, y: 5.001149}
+  - {x: -11.693031, y: 4.9981217}
+  - {x: -11.693301, y: 4.0001435}
+  - {x: -7.7644296, y: 4.016766}
+  - {x: -7.74928, y: 3.1117294}
+  - {x: -7.812921, y: 3.1094904}
 --- !u!1 &1858019122
 GameObject:
   m_ObjectHideFlags: 0
