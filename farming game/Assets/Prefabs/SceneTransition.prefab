@@ -70,4 +70,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6373dc7e1e6cd6489379e10649f2de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Town
+  SceneToLoad: Town
