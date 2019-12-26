@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Assets.Scripts;
 
 public class Playercontroller : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class Playercontroller : MonoBehaviour
     public Animator animator;
     Lookstate lookstate { get; set; }
     bool Isactive = false   ;
+
+    public Inventory inventory;
     void Start()
     {
         
@@ -96,6 +99,15 @@ public class Playercontroller : MonoBehaviour
         if (movementDirection.x > 0)
         {
             lookstate = Lookstate.Right;
+        }
+    }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit)
+    {
+        IInventoryItem item = hit.collider.GetComponent<IInventoryItem>();
+        if(item != null)
+        {
+            inventory.AddItem(item);
         }
     }
 }
