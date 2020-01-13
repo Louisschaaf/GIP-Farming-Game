@@ -9,19 +9,31 @@ namespace Assets.Scripts
 {
     class Melon : MonoBehaviour, IInventoryItem
     {
-        public string Name => "Melon";
-        
+        public string Name
+        {
+            get
+            {
+                return "Melon";
+            }
+        }
+
 
         public Sprite _Image = null;
 
-        public Sprite Image => _Image;
+        public Sprite Image
+        {
+            get
+            {
+                return _Image;
+            }
+        }
 
         public void OnPickup()
         {
             //Logica toevoegen wat er gebeurd wanneer de meloen opgepakt wordt door de speler
             gameObject.SetActive(false);
         }
-        
+
     }
 
 }
