@@ -18,12 +18,15 @@ public class Playercontroller : MonoBehaviour
     public Rigidbody2D rb;
     public Animator animator;
     Lookstate lookstate { get; set; }
-    bool Isactive = false   ;
+    bool Isactive = false;
 
-   
-    void Start()
+    [SerializeField] private UI_Inventory uiInventory;
+    private Inventory inventory;
+
+    void start()
     {
-        
+        inventory = new Inventory();
+        uiInventory.SetInventory(inventory);
     }
 
     // Update is called once per frame
@@ -68,7 +71,7 @@ public class Playercontroller : MonoBehaviour
     void Move()
     {
         rb.velocity = movementDirection * movementspeed * Speed;
-    } 
+    }
 
     enum Lookstate
     {
@@ -80,7 +83,7 @@ public class Playercontroller : MonoBehaviour
 
     void Animate()
     {
-       
+
         animator.SetFloat("Horizontal", movementDirection.x);
         animator.SetFloat("Vertical", movementDirection.y);
         animator.SetFloat("Speed", movementspeed);
@@ -102,5 +105,5 @@ public class Playercontroller : MonoBehaviour
         }
     }
 
-   
+
 }
