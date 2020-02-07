@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 
 public class Playercontroller : MonoBehaviour
@@ -20,6 +21,8 @@ public class Playercontroller : MonoBehaviour
     Lookstate lookstate { get; set; }
     bool Isactive = false;
 
+    TileData tile = new TileData();
+
     [SerializeField] private UI_Inventory uiInventory;
     private Inventory inventory;
 
@@ -35,6 +38,7 @@ public class Playercontroller : MonoBehaviour
         ProcessInputs();
         Move();
         Animate();
+        
     }
 
     void ProcessInputs()
@@ -50,21 +54,25 @@ public class Playercontroller : MonoBehaviour
         if (lookstate == Lookstate.Back && Isactive == true)
         {
             Isactive = false;
+            Till();
             animator.SetTrigger("Back");
         }
         if (lookstate == Lookstate.Left && Isactive == true)
         {
             Isactive = false;
+            Till();
             animator.SetTrigger("Left");
         }
         if (lookstate == Lookstate.Right && Isactive == true)
         {
             Isactive = false;
+            Till();
             animator.SetTrigger("Right");
         }
         if (lookstate == Lookstate.Front && Isactive == true)
         {
             Isactive = false;
+            Till();
             animator.SetTrigger("Front");
         }
     }
@@ -105,5 +113,46 @@ public class Playercontroller : MonoBehaviour
         }
     }
 
+    public Tile highlightTile;
+    public Tilemap highlightMap;
 
+    private Vector3Int previous;
+
+    void Till()
+    {
+        Vector3Int currentCell = highlightMap.WorldToCell(transform.position);
+        // add one in a direction (you'll have to change this to match your directional control)
+        if (lookstate == Lookstate.Back)
+        {
+            currentCell.y += 1;
+        }
+        else if (lookstate == Lookstate.Front)
+        {
+            currentCell.y -= 2;
+        }
+        else if (lookstate == Lookstate.Left)
+        {
+            currentCell.x -= 1;
+            currentCell.y -= 1;
+        }
+        else if (lookstate == Lookstate.Right)
+        {
+            currentCell.x += 1;
+            currentCell.y += -1;
+        }
+
+        // if the position has changed
+        if (currentCell != previous)
+        {
+            // set the new tile
+            highlightMap.SetTile(currentCell, highlightTile);
+
+            // erase previous
+            //highlightMap.SetTile(previous, null);
+
+            // save the new position for next frame
+            previous = currentCell;
+        }
+
+    }
 }
