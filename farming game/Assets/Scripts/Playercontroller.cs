@@ -21,7 +21,6 @@ public class Playercontroller : MonoBehaviour
     Lookstate lookstate { get; set; }
     bool Isactive = false;
 
-    TileData tile = new TileData();
 
     [SerializeField] private UI_Inventory uiInventory;
     private Inventory inventory;
@@ -38,14 +37,16 @@ public class Playercontroller : MonoBehaviour
         ProcessInputs();
         Move();
         Animate();
+        TempInventory();
         
     }
-
+    
     void ProcessInputs()
     {
         movementDirection = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         movementspeed = Mathf.Clamp(movementDirection.magnitude, 0.0f, 1.0f);
         movementDirection.Normalize();
+        
         //gebruik mousebuttondown
         if (Input.GetMouseButtonDown(0))
         {
@@ -54,8 +55,11 @@ public class Playercontroller : MonoBehaviour
         if (lookstate == Lookstate.Back && Isactive == true)
         {
             Isactive = false;
-            Till();
             animator.SetTrigger("Back");
+            if (animator.GetBool("Hoe") == true)
+            {
+                Till();
+            }
         }
         if (lookstate == Lookstate.Left && Isactive == true)
         {
@@ -121,12 +125,12 @@ public class Playercontroller : MonoBehaviour
     void Till()
     {
         Vector3Int currentCell = highlightMap.WorldToCell(transform.position);
-        // add one in a direction (you'll have to change this to match your directional control)
-        if (lookstate == Lookstate.Back)
+        
+       /* if (lookstate == Lookstate.Back)
         {
             currentCell.y += 1;
-        }
-        else if (lookstate == Lookstate.Front)
+        } */
+        if (lookstate == Lookstate.Front)
         {
             currentCell.y -= 2;
         }
@@ -154,5 +158,25 @@ public class Playercontroller : MonoBehaviour
             previous = currentCell;
         }
 
+    }
+    // tijdelijke inventory
+    
+    void TempInventory()
+    {
+      //  animator.SetBool("Hoe", false);
+        if (Input.GetKey(KeyCode.Alpha1))
+        {
+            animator.SetTrigger("WateringCan");
+        }
+        else if (Input.GetKey(KeyCode.Alpha2) && animator.GetBool("Hoe") != true)
+        {
+            animator.SetBool("Hoe", true);
+            
+        }
+        else if (Input.GetKey(KeyCode.Alpha2) && animator.GetBool("Hoe") != false)
+        {
+            animator.SetBool("Hoe", false);
+        }
+        
     }
 }

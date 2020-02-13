@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 103ab0ad23589bc4f9a8b34954725ffe, type: 3}
+  m_Name: New Wateredtile
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: 261327243575696040, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 1
+  m_ColliderType: 1
+  tilledground:
+  - {fileID: 261327243575696040, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: 7108202164674571328, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: -6889710743475782785, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: 1797845711883837600, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: -8377324283014757306, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: -2119371753941037542, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: 93261578704295351, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: 5354957518627553660, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: -2910442232245339549, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: 6803309528526691442, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: 8761984084030059593, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: -2680733983958747643, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: 1102589721667823491, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: -5995804979718457559, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: -4437150043081302342, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  - {fileID: -4922703654920202134, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
+  preview: {fileID: 261327243575696040, guid: e6ccdba5599e46447a25771954ab683f, type: 3}
