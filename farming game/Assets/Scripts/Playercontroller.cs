@@ -164,11 +164,16 @@ public class Playercontroller : MonoBehaviour
     void TempInventory()
     {
       //  animator.SetBool("Hoe", false);
-        if (Input.GetKey(KeyCode.Alpha1))
+        if (Input.GetKey(KeyCode.Alpha1) && animator.GetBool("WateringCan") == false)
         {
-            animator.SetTrigger("WateringCan");
+            animator.SetBool("WateringCan", true);
+
         }
-        else if (Input.GetKey(KeyCode.Alpha2) && animator.GetBool("Hoe") != true)
+        else if (Input.GetKey(KeyCode.Alpha1) && animator.GetBool("WateringCan") == true)
+        {
+            animator.SetBool("WateringCan", false);
+        }
+        if (Input.GetKey(KeyCode.Alpha2) && animator.GetBool("Hoe") != true)
         {
             animator.SetBool("Hoe", true);
             
