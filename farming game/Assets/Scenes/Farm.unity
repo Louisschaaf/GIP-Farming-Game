@@ -63394,6 +63394,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneTransition
       objectReference: {fileID: 0}
+    - target: {fileID: 3460749064150728048, guid: a5fae18931808a14d9b657252a36cf3a,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 574271571}
     - target: {fileID: 7023291555711849475, guid: a5fae18931808a14d9b657252a36cf3a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -63491,7 +63496,7 @@ PrefabInstance:
     - target: {fileID: 7851402339196739674, guid: 2c5523962a13b774c9bee43e4e179061,
         type: 3}
       propertyPath: maxPosition.x
-      value: 30.15
+      value: 27.75
       objectReference: {fileID: 0}
     - target: {fileID: 7851402339196739674, guid: 2c5523962a13b774c9bee43e4e179061,
         type: 3}
@@ -63501,7 +63506,7 @@ PrefabInstance:
     - target: {fileID: 7851402339196739674, guid: 2c5523962a13b774c9bee43e4e179061,
         type: 3}
       propertyPath: minPosition.x
-      value: -26.15
+      value: -24
       objectReference: {fileID: 0}
     - target: {fileID: 7851402339196739674, guid: 2c5523962a13b774c9bee43e4e179061,
         type: 3}
@@ -63511,12 +63516,12 @@ PrefabInstance:
     - target: {fileID: 7851402339196739675, guid: 2c5523962a13b774c9bee43e4e179061,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4
+      value: 4.3
       objectReference: {fileID: 0}
     - target: {fileID: 7851402339196739675, guid: 2c5523962a13b774c9bee43e4e179061,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -2.86
       objectReference: {fileID: 0}
     - target: {fileID: 7851402339196739675, guid: 2c5523962a13b774c9bee43e4e179061,
         type: 3}
