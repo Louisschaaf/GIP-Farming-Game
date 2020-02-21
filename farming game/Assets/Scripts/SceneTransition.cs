@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class SceneTransition : MonoBehaviour
 {
     private int SceneToLoad;
-    public Animator animator;
 
     private void Start()
     {
@@ -14,7 +13,6 @@ public class SceneTransition : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D other)
     {
-        animator.SetTrigger("Fadout");
         SceneManager.LoadScene(SceneToLoad);
     }
 
