@@ -60,24 +60,37 @@ public class Playercontroller : MonoBehaviour
             {
                 Till();
             }
+            else if (animator.GetBool("WateringCan") == true)
+            {
+                Water();
+            }
         }
         if (lookstate == Lookstate.Left && Isactive == true)
         {
             Isactive = false;
-            Till();
             animator.SetTrigger("Left");
+            if (animator.GetBool("Hoe") == true)
+            {
+                Till();
+            }
         }
         if (lookstate == Lookstate.Right && Isactive == true)
         {
             Isactive = false;
-            Till();
             animator.SetTrigger("Right");
+            if (animator.GetBool("Hoe") == true)
+            {
+                Till();
+            }
         }
         if (lookstate == Lookstate.Front && Isactive == true)
         {
             Isactive = false;
-            Till();
             animator.SetTrigger("Front");
+            if (animator.GetBool("Hoe") == true)
+            {
+                Till();
+            }
         }
     }
     void Move()
@@ -117,14 +130,14 @@ public class Playercontroller : MonoBehaviour
         }
     }
 
-    public Tile highlightTile;
-    public Tilemap highlightMap;
+    public Tile highlightTile_tilled;
+    public Tilemap highlightMap_tilled;
 
     private Vector3Int previous;
 
     void Till()
     {
-        Vector3Int currentCell = highlightMap.WorldToCell(transform.position);
+        Vector3Int currentCell = highlightMap_tilled.WorldToCell(transform.position);
         
        /* if (lookstate == Lookstate.Back)
         {
@@ -149,7 +162,7 @@ public class Playercontroller : MonoBehaviour
         if (currentCell != previous)
         {
             // set the new tile
-            highlightMap.SetTile(currentCell, highlightTile);
+            highlightMap_tilled.SetTile(currentCell, highlightTile_tilled);
 
             // erase previous
             //highlightMap.SetTile(previous, null);
@@ -159,16 +172,63 @@ public class Playercontroller : MonoBehaviour
         }
 
     }
+    // same function for watering
+    public Tile highlightTile_watered;
+    public Tilemap highlightMap_watered;
+
+    private Vector3Int previous2;
+
+    void Water()
+    {
+        Vector3Int currentCell = highlightMap_watered.WorldToCell(transform.position);
+
+        /* if (lookstate == Lookstate.Back)
+         {
+             currentCell.y += 1;
+         } */
+        if (lookstate == Lookstate.Front)
+        {
+            currentCell.y -= 2;
+        }
+        else if (lookstate == Lookstate.Left)
+        {
+            currentCell.x -= 1;
+            currentCell.y -= 1;
+        }
+        else if (lookstate == Lookstate.Right)
+        {
+            currentCell.x += 1;
+            currentCell.y += -1;
+        }
+
+        // if the position has changed
+        if (currentCell != previous2)
+        {
+            // set the new tile
+            highlightMap_watered.SetTile(currentCell, highlightTile_watered);
+
+            // erase previous
+            //highlightMap.SetTile(previous, null);
+
+            // save the new position for next frame
+            previous2 = currentCell;
+        }
+
+    }
     // tijdelijke inventory
-    
+
     void TempInventory()
     {
       //  animator.SetBool("Hoe", false);
-        if (Input.GetKey(KeyCode.Alpha1))
+        if (Input.GetKey(KeyCode.Alpha1) && animator.GetBool("WateringCan") != true)
         {
-            animator.SetTrigger("WateringCan");
+            animator.SetBool("WateringCan", true);
         }
-        else if (Input.GetKey(KeyCode.Alpha2) && animator.GetBool("Hoe") != true)
+        else if (Input.GetKey(KeyCode.Alpha1) && animator.GetBool("WateringCan") != false)
+        {
+            animator.SetBool("WateringCan", false);
+        }
+        if (Input.GetKey(KeyCode.Alpha2) && animator.GetBool("Hoe") != true)
         {
             animator.SetBool("Hoe", true);
             
