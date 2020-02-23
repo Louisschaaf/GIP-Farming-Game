@@ -3,7 +3,14 @@ guid: 0f42dba5a2b47d7418bb3d490a75fdb9
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - rb: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - uiInventory: {instanceID: 0}
+  - highlightTile_tilled: {instanceID: 0}
+  - highlightMap_tilled: {instanceID: 0}
+  - highlightTile_watered: {instanceID: 0}
+  - highlightMap_watered: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

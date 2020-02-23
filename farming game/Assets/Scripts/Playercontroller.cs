@@ -39,6 +39,7 @@ public class Playercontroller : MonoBehaviour
         Animate();
         TempInventory();
         
+
     }
     
     void ProcessInputs()
@@ -64,6 +65,11 @@ public class Playercontroller : MonoBehaviour
             {
                 Water();
             }
+            else if (Seeds == true && Isactive == true)
+            {
+                sow();
+                Debug.Log("HIT");
+            }
         }
         if (lookstate == Lookstate.Left && Isactive == true)
         {
@@ -72,6 +78,14 @@ public class Playercontroller : MonoBehaviour
             if (animator.GetBool("Hoe") == true)
             {
                 Till();
+            }
+            else if (animator.GetBool("WateringCan") == true)
+            {
+                Water();
+            }
+            else if (Seeds == true && Isactive == true)
+            {
+                sow();
             }
         }
         if (lookstate == Lookstate.Right && Isactive == true)
@@ -82,6 +96,14 @@ public class Playercontroller : MonoBehaviour
             {
                 Till();
             }
+            else if (animator.GetBool("WateringCan") == true)
+            {
+                Water();
+            }
+            else if (Seeds == true && Isactive == true)
+            {
+                sow();
+            }
         }
         if (lookstate == Lookstate.Front && Isactive == true)
         {
@@ -91,7 +113,16 @@ public class Playercontroller : MonoBehaviour
             {
                 Till();
             }
+            else if (animator.GetBool("WateringCan") == true)
+            {
+                Water();
+            }
+            else if (Seeds == true && Isactive == true)
+            {
+                sow();
+            }
         }
+        
     }
     void Move()
     {
@@ -215,7 +246,51 @@ public class Playercontroller : MonoBehaviour
         }
 
     }
+
+    public Tile highlightTile_sown;
+    public Tilemap highlightMap_sown;
+
+    private Vector3Int previous3;
+
+    void sow()
+    {
+        Vector3Int currentCell = highlightMap_sown.WorldToCell(transform.position);
+
+        /* if (lookstate == Lookstate.Back)
+         {
+             currentCell.y += 1;
+         } */
+        if (lookstate == Lookstate.Front)
+        {
+            currentCell.y -= 2;
+        }
+        else if (lookstate == Lookstate.Left)
+        {
+            currentCell.x -= 1;
+            currentCell.y -= 1;
+        }
+        else if (lookstate == Lookstate.Right)
+        {
+            currentCell.x += 1;
+            currentCell.y += -1;
+        }
+
+        // if the position has changed
+        if (currentCell != previous3)
+        {
+            // set the new tile
+            highlightMap_sown.SetTile(currentCell, highlightTile_sown);
+
+            // erase previous
+            //highlightMap.SetTile(previous, null);
+
+            // save the new position for next frame
+            previous3 = currentCell;
+        }
+
+    }
     // tijdelijke inventory
+    public bool Seeds { get; set; }
 
     void TempInventory()
     {
@@ -236,6 +311,15 @@ public class Playercontroller : MonoBehaviour
         else if (Input.GetKey(KeyCode.Alpha2) && animator.GetBool("Hoe") != false)
         {
             animator.SetBool("Hoe", false);
+        }
+        if (Input.GetKey(KeyCode.E) && Seeds == false)
+        {
+            Seeds = true;
+            //add the seeds function
+        }
+        else if (Input.GetKey(KeyCode.E) && Seeds == true)
+        {
+            Seeds = false;
         }
         
     }
