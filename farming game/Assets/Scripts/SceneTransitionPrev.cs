@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneTransitionPrev : MonoBehaviour
 {
     private int SceneToLoad;
+    public Animator animator;
 
     private void Start()
     {
@@ -13,6 +14,7 @@ public class SceneTransitionPrev : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D other)
     {
+        animator.SetTrigger("FadeOut");
         SceneManager.LoadScene(SceneToLoad);
         
     }
