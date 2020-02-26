@@ -140,7 +140,7 @@ public class TilledTileBehaviourScript : Tile
     }
         
 
-    bool IsTilled(ITilemap tilemap, Vector3Int position)
+    public bool IsTilled(ITilemap tilemap, Vector3Int position)
     {
         return tilemap.GetTile(position) == this;
     }

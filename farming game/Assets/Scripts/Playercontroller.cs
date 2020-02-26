@@ -38,8 +38,8 @@ public class Playercontroller : MonoBehaviour
         Move();
         Animate();
         TempInventory();
-        
 
+        highlightMap_sown.RefreshAllTiles();
     }
     
     void ProcessInputs()
@@ -290,7 +290,7 @@ public class Playercontroller : MonoBehaviour
 
     }
     // tijdelijke inventory
-    public bool Seeds { get; set; }
+    public bool Seeds { get; set; } = false;
 
     void TempInventory()
     {
@@ -315,6 +315,7 @@ public class Playercontroller : MonoBehaviour
         if (Input.GetKey(KeyCode.E) && Seeds == false)
         {
             Seeds = true;
+            sow();
             //add the seeds function
         }
         else if (Input.GetKey(KeyCode.E) && Seeds == true)

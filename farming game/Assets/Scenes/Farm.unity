@@ -1176,6 +1176,12 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!95 &519766607 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2069065938790069391, guid: f28b1f71a5b3cdd40b38acb6aa0f2e92,
+    type: 3}
+  m_PrefabInstance: {fileID: 2069065939409633183}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &538476577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3916335674623219458, guid: 289e4eadc4800ee43ae4c91f5d20c7a4,
@@ -48619,6 +48625,12 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!50 &1495344063 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 2069065937676523222, guid: f28b1f71a5b3cdd40b38acb6aa0f2e92,
+    type: 3}
+  m_PrefabInstance: {fileID: 2069065939409633183}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1624371300
 GameObject:
   m_ObjectHideFlags: 0
@@ -64108,13 +64120,28 @@ PrefabInstance:
         type: 3}
       propertyPath: highlightTile_sown
       value: 
-      objectReference: {fileID: 11400000, guid: 268d28ff609ea6c4ebec6869f49bb7b0,
+      objectReference: {fileID: 11400000, guid: ce967db1ab18bb545a5dc4c2a643bfa2,
         type: 2}
     - target: {fileID: 2069065937676523225, guid: f28b1f71a5b3cdd40b38acb6aa0f2e92,
         type: 3}
       propertyPath: highlightMap_sown
       value: 
       objectReference: {fileID: 2060587504}
+    - target: {fileID: 2069065937676523225, guid: f28b1f71a5b3cdd40b38acb6aa0f2e92,
+        type: 3}
+      propertyPath: Speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2069065937676523225, guid: f28b1f71a5b3cdd40b38acb6aa0f2e92,
+        type: 3}
+      propertyPath: rb
+      value: 
+      objectReference: {fileID: 1495344063}
+    - target: {fileID: 2069065937676523225, guid: f28b1f71a5b3cdd40b38acb6aa0f2e92,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 519766607}
     - target: {fileID: 2069065937676523226, guid: f28b1f71a5b3cdd40b38acb6aa0f2e92,
         type: 3}
       propertyPath: m_Name
