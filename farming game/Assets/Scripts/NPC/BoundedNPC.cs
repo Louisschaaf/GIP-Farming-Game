@@ -19,6 +19,8 @@ public class BoundedNPC : Interactable
     public float maxWaitTime;
     private float waitTimeSeconds;
 
+   
+
 
     // Start is called before the first frame update
     void Start()
@@ -34,15 +36,16 @@ public class BoundedNPC : Interactable
     // Update is called once per frame
     void Update()
     {
+      
         if (isMoving)
         {
             moveTimeSeconds -= Time.deltaTime;
-            if(moveTimeSeconds <= 0)
+            if (moveTimeSeconds <= 0)
             {
                 moveTimeSeconds = Random.Range(minMoveTime, maxMoveTime);
                 isMoving = false;
-              
-                
+
+
             }
             if (!playerInRange)
             {
@@ -52,14 +55,14 @@ public class BoundedNPC : Interactable
         else
         {
             waitTimeSeconds -= Time.deltaTime;
-            if(waitTimeSeconds <= 0)
+            if (waitTimeSeconds <= 0)
             {
                 ChooseDifferentDirection();
                 isMoving = true;
                 waitTimeSeconds = Random.Range(minMoveTime, maxMoveTime);
             }
         }
-   
+
     }
 
     private void ChooseDifferentDirection()
@@ -69,7 +72,7 @@ public class BoundedNPC : Interactable
         int loops = 0;
         while (temp == directionVector && loops < 100)
         {
-            Debug.Log("here");
+
             loops++;
             ChangeDirection();
         }

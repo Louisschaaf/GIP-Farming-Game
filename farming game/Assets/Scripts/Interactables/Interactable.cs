@@ -6,6 +6,9 @@ public class Interactable : MonoBehaviour
 {
     public Signal context;
     public bool playerInRange;
+
+    
+ 
     
   
     // Start is called before the first frame update
@@ -17,6 +20,7 @@ public class Interactable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+            
         
     }
 
@@ -24,9 +28,13 @@ public class Interactable : MonoBehaviour
     {
         if(other.CompareTag("Player") && !other.isTrigger)
         {
+           
             context.Raise();
             playerInRange = true;
+            FindObjectOfType<DialogueTrigger>().TriggerDialogue();
+            
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -35,6 +43,8 @@ public class Interactable : MonoBehaviour
         {
             context.Raise();
             playerInRange = false;
+            FindObjectOfType<DialogueManager>().EndDialogue();
+            
 
         }
     }
