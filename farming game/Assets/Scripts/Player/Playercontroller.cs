@@ -6,7 +6,6 @@ using UnityEngine.Tilemaps;
 
 public class Playercontroller : MonoBehaviour
 {
-    
     [Header("character attributes:")]
     public float Speed = 1.0f;
 
@@ -25,10 +24,6 @@ public class Playercontroller : MonoBehaviour
 
     
 
-    
-
-    
-
     void start()
     {
        
@@ -38,9 +33,6 @@ public class Playercontroller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(GlobalVariables.GetInstance().PLayer_Position);
-        GlobalVariables.GetInstance().PLayer_Position = rb.transform.position;
-        
         ProcessInputs();
         Move();
         Animate();
@@ -254,7 +246,7 @@ public class Playercontroller : MonoBehaviour
 
     }
 
-    
+    public Tile highlightTile_sown;
     public Tilemap highlightMap_sown;
 
     private Vector3Int previous3;
@@ -282,7 +274,18 @@ public class Playercontroller : MonoBehaviour
             currentCell.y += -1;
         }
 
-        
+        // if the position has changed
+        if (currentCell != previous3)
+        {
+            // set the new tile
+            highlightMap_sown.SetTile(currentCell, highlightTile_sown);
+
+            // erase previous
+            //highlightMap.SetTile(previous, null);
+
+            // save the new position for next frame
+            previous3 = currentCell;
+        }
 
     }
     // tijdelijke inventory
@@ -311,7 +314,7 @@ public class Playercontroller : MonoBehaviour
         if (Input.GetKey(KeyCode.E) && Seeds == false)
         {
             Seeds = true;
-            
+            sow();
             //add the seeds function
         }
         else if (Input.GetKey(KeyCode.E) && Seeds == true)
